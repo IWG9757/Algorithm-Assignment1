@@ -10,7 +10,7 @@ public class Algo_7 {
         do{
             System.out.println("Enter a sentence: ");
             sentence = scanner.nextLine().trim();
-        }while (sentence.isBlank());
+        }while (sentence.isEmpty());
 
         //Split the input sentence into an array of words
         String[] words = sentence.split("\\s+"); //split by whitespaces
