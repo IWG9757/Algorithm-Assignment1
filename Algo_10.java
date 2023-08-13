@@ -12,7 +12,7 @@ public class Algo_10 {
             System.out.println("Enter a phone number (+94 XX XXX XXXX or 0XX-XXXXXXX): ");
             phoneNumber = scanner.nextLine().trim();
             
-        }while(phoneNumber.isBlank());
+        }while(phoneNumber.isEmpty());
 
         boolean isValid = true;
         String digitsOnly = phoneNumber.replaceAll("[^\\d]","");
