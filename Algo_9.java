@@ -15,7 +15,7 @@ public class Algo_9 {
             if (word.contains(" ")){
                 System.out.println("Invalid Input.\n");
             }
-        }while(word.contains(" ") || word.isBlank());
+        }while(word.contains(" ") || word.isEmpty());
 
         boolean isPalindrome = true;
 
