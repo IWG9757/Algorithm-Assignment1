@@ -11,7 +11,7 @@ public class Algo_5 {
         do {
             System.out.println("Enter a text: ");
             text = scanner.nextLine().trim(); //Trim is used to remove leading/trailing spaces.
-        }while(text.isBlank()); //continue untill non empty (even only spaces) text is provided
+        }while(text.isEmpty()); //continue untill non empty text is provided
         
         //Convert the text string to a character array. 
         char[] charArray = text.toCharArray();
